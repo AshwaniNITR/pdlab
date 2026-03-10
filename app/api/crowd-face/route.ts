@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import mongoose from "mongoose";
 import MissingPerson from "@/app/models/missingPersonModel";
 
+
 const MONGODB_URI = process.env.MongoURL as string;
 const FLASK_URL =
   "https://embed-fgd9ebbseydrb9fc.canadacentral-01.azurewebsites.net";

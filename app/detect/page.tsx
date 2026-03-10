@@ -63,7 +63,7 @@ export default function FaceDetectionPage() {
     formData.append("image", file);
 
     try {
-      const res = await fetch("http://localhost:5000/detect_faces", {
+      const res = await fetch("https://mtcnn-aub4gba5hzchbjde.canadacentral-01.azurewebsites.net/detect_faces", {
         method: "POST",
         body: formData,
       });
