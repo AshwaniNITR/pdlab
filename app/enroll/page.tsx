@@ -250,7 +250,7 @@ export default function EnrollPage() {
                       alt="Preview"
                       className="w-full h-full object-cover rounded-2xl border-4 border-white shadow-xl group-hover:scale-105 transition-transform duration-300"
                     />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 rounded-2xl transition-all duration-300" />
+                  
                     <button
                       type="button"
                       onClick={() => {
