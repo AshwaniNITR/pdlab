@@ -288,12 +288,11 @@ export default function EnrollPage() {
                       <p className="text-sm text-gray-500 mb-4">
                         PNG, JPG, JPEG up to 5MB
                       </p>
-                      <button
-                        type="button"
-                        className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg"
-                      >
-                        Choose Image
-                      </button>
+                    <span
+  className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg inline-block"
+>
+  Choose Image
+</span>
                     </div>
                   </div>
                   <input
